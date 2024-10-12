@@ -54,13 +54,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('💝 𝙅𝙤𝙞𝙣 𝙔𝙤𝙪𝙧 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 😉', url='https://youtube.com/@Tech_VJ')
+            InlineKeyboardButton('💝 𝙅𝙤𝙞𝙣 𝙔𝙤𝙪𝙧 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 😉', url='https://t.me/+FfRIexHWFM04YTA1')
             ],[
-            InlineKeyboardButton('🔍 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥', url='https://t.me/vj_bot_disscussion'),
-            InlineKeyboardButton('🤖 𝙐𝙥𝙙𝙖𝙩𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/vj_botz')
+            InlineKeyboardButton('🔍 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥', url='https://t.me/+-CWDhekYZiwwMmZl'),
+            InlineKeyboardButton('🤖 𝙐𝙥𝙙𝙖𝙩𝙚 𝘾𝙝𝙖𝙣𝙣𝙚𝙡', url='https://t.me/DM_LinkZzz')
             ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('💁‍♀️ 𝙃𝙚𝙡𝙥', callback_data='help'),
+            InlineKeyboardButton('😊 𝘼𝙗𝙤𝙪𝙩', callback_data='about')
         ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
