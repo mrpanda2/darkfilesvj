@@ -4,7 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b>𝙃𝙚𝙮 {},𝙈𝙮 𝙉𝙖𝙢𝙚 {},【🥂 𝙄'𝙢 𝘿𝙈 𝙁𝙞𝙡𝙚𝙨 𝘽𝙤𝙩!</b>"""
+    START_TXT = """<b>𝙃𝙚𝙮 {},𝙈𝙮 𝙉𝙖𝙢𝙚 {},            【🥂 𝙄'𝙢 𝘿𝙈 𝙁𝙞𝙡𝙚𝙨 𝘽𝙤𝙩!]                 𝙅𝙤𝙞𝙣 𝙔𝙤𝙪𝙧 𝘾𝙝𝙖𝙣𝙣𝙚𝙡</b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
