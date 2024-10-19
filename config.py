@@ -18,13 +18,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "26626715"))
-API_HASH = environ.get("API_HASH", "967f1c73aa77a29009bc364edd30b525")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7712335100:AAF6x8jBTwBRE0UCwwuiaPPu0MfWCIvV9fE")
+API_ID = int(environ.get("API_ID", "20247467"))
+API_HASH = environ.get("API_HASH", "8ab4a0d75eec6fe40b85144c2c0ff418")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8118471641:AAHCU8LiEs7S457Fz-qlq_7JNUESt6bpoqY")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/84b09cfc6223afcd75393.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7216492043').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "pandafiles2_bot") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7314923110').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "panda02_file_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002360380215"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002358196072"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
